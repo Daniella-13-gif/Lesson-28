@@ -1,51 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Java script string</title>
     </head>
 
     <body>
-        <DOCTYPE html>
-            <html>
-                <head>
-                    <title>Data Types</title>
-                </head>
-        
-                <body style="background-color: darksalmon;color: orangered;
-                font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic;">
-                    <h1>JAVA Script Data Types</h1>
-        
-                    <script>
-                        var a=15;
-                        var b=15;
-                        var c=10
-                        var d=20;
-                        var e;
-                      
-                        document.write("a and b are equal " +(a==b));
-                        document.write("<br>");
-                        
-                        document.write("b and c are equal " +(b==c));
-                        document.write("<br>");
-        
-                        document.write("c and e are equal " +(c==e ));
-                        document.write("<br>");
-        
-                        
-                        document.write("The value of d is " +d);
-                        document.write("<br>");
-        
-                        
-                        document.write("The value of e is " +e);
-                        document.write("<br>");
-        
-                    </script>
-                    
-                </body>
-            </html>
+        <h2>JAVA Script String Method</h2>
+        <p>The string() method can convert a number into a string</p>
+
+        <p id="number_result"></p>
+        <p id="string_result"></p>
 
         <script>
-            
+          var x=20;
+          var y=50;
+          
+          document.getElementById("number_result").innerHTML=x+y; 
+          document.getElementById("string_result").innerHTML=String(x) + String(y);
         </script>
     </body>
 </html>
